@@ -1,14 +1,14 @@
-import "./App.css";
 import Player from "./components/player/player";
 import Sidebar from "./components/sidebar/sidebar";
-import './stylesheets/color-string-constants.css';
-
+import "./stylesheets/color-string-constants.scss";
 
 function App() {
-  return <div className="App">
-    <Sidebar />
-    <Player />
-  </div>;
+  return (
+    <div className="App">
+      <Sidebar />
+      <Player />
+    </div>
+  );
 }
 
 export default App;

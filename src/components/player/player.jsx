@@ -1,11 +1,8 @@
 import React from "react";
-import '../stylesheets/player.css';
-
+import "./player.scss";
 
 function Player() {
-  return <div className="Player">
-
-  </div>;
+  return <div className="Player"></div>;
 }
 
 export default Player;
